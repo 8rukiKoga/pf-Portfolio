@@ -323,8 +323,7 @@ body {
     
   
     
-    /*media Queries 767
-    ----------------------------------------------------*/
+    /*media Queries 767*/
     @media screen and (max-width: 767px) {
       body {
         font-size: 14px;
