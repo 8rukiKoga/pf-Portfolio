@@ -303,9 +303,10 @@ body {
       background-color: #4c4c4c;
     }
     
-    .page-top .material-icons-outlined {
+    .page-top .page-top-text {
       vertical-align: bottom;
-      color: #fff;
+      color: #c2c2c2;
+      font-size: 8px;
     }
     
     /*--------------------------------
