@@ -191,9 +191,10 @@ body {
     background-color: #4c4c4c;
   }
   
-  .page-top .material-icons-outlined {
+  .page-top .page-top-text {
     vertical-align: bottom;
-    color: #fff;
+    color: #c2c2c2;
+    font-size: 8px;
   }
 
     /*--------------------------------
@@ -211,6 +212,26 @@ body {
   }
 
   @media screen and (max-width: 767px) {
+
+          /* ヘッダー */
+          .header .container {
+            padding: 15px;
+          } 
+          .nav-list {
+            margin: 0 auto;
+            justify-content: space-between;
+          }
+          .nav-item a {
+            font-size: 10px;
+          }
+
+          /* work-description */
+          .work-content, .work-pp {
+            font-size: 12px;
+          }
+          .work-memo {
+            font-size: 13px;
+          }
       /* 下層ページ */
       .article {
         padding: 50px 0;
