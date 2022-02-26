@@ -1,3 +1,4 @@
+/* 全体 */
 body {
     font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 15px;
@@ -27,9 +28,7 @@ body {
       display: none;
     }
     
-    /*--------------------------------
-     レイアウト
-    ---------------------------------*/
+    /* レイアウト */
     .wrapper {
       padding-top: 73px;
     }
@@ -48,9 +47,7 @@ body {
       padding: 0 40px;
     }
     
-    /*--------------------------------
-     見出し
-    ---------------------------------*/
+    /* 見出し */
     .title {
       font-size: 34px;
       font-weight: bold;
@@ -71,9 +68,7 @@ body {
       margin-bottom: 30px;
     }
     
-    /*--------------------------------
-    ヘッダー
-    ---------------------------------*/
+    /* ヘッダー */
     .header {
       position: fixed;
       top: 0;
@@ -127,9 +122,7 @@ body {
       width: 100%;
     }
     
-    /*--------------------------------
-     メインビジュアル
-    ---------------------------------*/
+    /* トップ */
     .mv {
       display: flex;
       align-items: center;
@@ -161,10 +154,7 @@ body {
       color: #fff;
     }
   
-    /*--------------------------------
-     About
-    ---------------------------------*/
-  
+    /* ABOUT */
     .profile {
       max-width: 800px;
       margin: 0 auto;
@@ -187,9 +177,7 @@ body {
       margin-bottom: 80px;
     }
   
-    /*--------------------------------
-     Skill
-    ---------------------------------*/
+    /* SKILL */
   
   .skill-lists {
     display: flex;
@@ -233,9 +221,7 @@ body {
       line-height: 1.8;
     }
   
-    /*--------------------------------
-     Works
-    ---------------------------------*/
+    /* WORKS */
     .works-list {
       display: flex;
       flex-wrap: wrap;
@@ -276,9 +262,7 @@ body {
       color: #aaa;
     }
     
-    /*--------------------------------
-     Contact
-    ---------------------------------*/
+    /* CONTACT */
     .contact {
       text-align: center;
     }
@@ -290,9 +274,7 @@ body {
     .contact-text {
       margin-top: 10px;
     }
-    /*--------------------------------
-     ページトップ
-    ---------------------------------*/
+    /* トップに戻る */
     .page-top {
       font-weight: bold;
       padding: 10px;
@@ -307,9 +289,7 @@ body {
       font-size: 8px;
     }
     
-    /*--------------------------------
-     フッター
-    ---------------------------------*/
+    /* フッター */
     .footer {
       padding: 30px;
       background-color: #333;
@@ -323,7 +303,7 @@ body {
     
   
     
-    /*media Queries 767*/
+    /* media Queries 767px */
     @media screen and (max-width: 767px) {
       body {
         font-size: 14px;
@@ -374,7 +354,7 @@ body {
         font-size: 10px;
       }
 
-      /*  メインビジュアル */
+      /* トップ */
       .mv {
         height: 75vh;
       }
@@ -395,44 +375,8 @@ body {
         font-size: 14px;
         line-height: 1.7;
       }
-    
-      /* Works */
-      .works-name {
-        font-size: 12px;
-      }
-    
-      .works-info {
-        margin-top: 3px;
-      }
-    
-      .works-list {
-        justify-content: space-between;
-        margin: 30px auto;
-      }
-    
-      .works-item {
-        flex: 0 0 48%;
-        margin-right: 0;
-        margin-bottom: 30px;
-      }
-    
-      /* Skill */
-      .skill-lists {
-        flex-direction:column;
-      }
-  
-      .skill-list {
-        width: 98%;
-        margin: 30px auto;
-      }
-    
-      .skill-body {
-        margin-bottom: 5px;
-        font-size: 13px;
-        line-height: 1.7;
-      }
-    
-      /* About */
+
+      /* ABOUT */
       .profile {
         display: block;
       }
@@ -451,6 +395,42 @@ body {
     
       .profile-body p:not(:last-child) {
         margin-bottom: 20px;
+      }
+    
+      /* SKILL */
+      .skill-lists {
+        flex-direction:column;
+      }
+  
+      .skill-list {
+        width: 98%;
+        margin: 30px auto;
+      }
+    
+      .skill-body {
+        margin-bottom: 5px;
+        font-size: 13px;
+        line-height: 1.7;
+      }
+
+      /* WORKS */
+      .works-name {
+        font-size: 12px;
+      }
+    
+      .works-info {
+        margin-top: 3px;
+      }
+    
+      .works-list {
+        justify-content: space-between;
+        margin: 30px auto;
+      }
+    
+      .works-item {
+        flex: 0 0 48%;
+        margin-right: 0;
+        margin-bottom: 30px;
       }
     
       /* フッター */

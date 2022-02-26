@@ -1,56 +1,53 @@
-body {
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 15px;
-      letter-spacing: .05em;
-      color: #f7f7f7;
-      background-color: #101010;
-    }
-    
-    a {
-      transition: opacity .3s;
-      text-decoration: none;
-      color: #1ca9e3;
-    }
-    
-    img {
-      max-width: 100%;
-      height: auto;
-      vertical-align: bottom;
-      border-style: none;
-    }
-    
-    .pc-only {
-      display: block;
-    }
-    
-    .sp-only {
-      display: none;
-    }
-    
-    /*--------------------------------
-     レイアウト
-    ---------------------------------*/
-    .wrapper {
-      padding-top: 73px;
-    }
-    
-    .section {
-      padding: 90px 0;
-    }
-    
-    .section:nth-of-type(odd) {
-      background-color: #1a1a1a;
-    }
-    
-    .container {
-      max-width: 1340px;
-      margin: 0 auto;
-      padding: 0 40px;
-    }
+  /* 全体 */
+  body {
+      font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        letter-spacing: .05em;
+        color: #f7f7f7;
+        background-color: #101010;
+      }
+  
+  a {
+    transition: opacity .3s;
+    text-decoration: none;
+    color: #1ca9e3;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border-style: none;
+  }
+  
+  .pc-only {
+    display: block;
+  }
+  
+  .sp-only {
+    display: none;
+  }
+  
+  /* レイアウト */
+  .wrapper {
+    padding-top: 73px;
+  }
+  
+  .section {
+    padding: 90px 0;
+  }
+  
+  .section:nth-of-type(odd) {
+    background-color: #1a1a1a;
+  }
+  
+  .container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
 
-    /*--------------------------------
-  ヘッダー
-  ---------------------------------*/
+    /* ヘッダー */
   .header {
     position: fixed;
     top: 0;
@@ -104,9 +101,7 @@ body {
     width: 100%;
   }
   
-  /*--------------------------------
-    Workページ
-  ---------------------------------*/
+  /* CONTENT */
   .article {
     padding: 80px 0;
   }
@@ -180,9 +175,7 @@ body {
     text-align: center;
   }
 
-    /*--------------------------------
-   トップに戻る
-  ---------------------------------*/
+    /* トップに戻る */
   .page-top {
     font-weight: bold;
     padding: 10px;
@@ -197,9 +190,7 @@ body {
     font-size: 8px;
   }
 
-    /*--------------------------------
-   フッター
-  ---------------------------------*/
+    /* フッター */
   .footer {
     padding: 30px;
     background-color: #333;
@@ -211,44 +202,43 @@ body {
     color: #797979;
   }
 
-  @media screen and (max-width: 767px) {
-
-          /* ヘッダー */
-          .header .container {
-            padding: 15px;
-          } 
-          .nav-list {
-            margin: 0 auto;
-            justify-content: space-between;
-          }
-          .nav-item a {
-            font-size: 10px;
-          }
-
-          /* work-description */
-          .work-content, .work-pp {
-            font-size: 12px;
-          }
-          .work-memo {
-            font-size: 13px;
-          }
-      /* 下層ページ */
-      .article {
-        padding: 50px 0;
-      }
-    
-      .article-body h3 {
-        font-size: 16px;
-        padding-left: .8em;
-      }
-    
-      .article-body h3:not(:first-child) {
-        margin-top: 30px;
-      }
-    
-      .work-content, .work-pp {
-        font-size: 13px;
-        line-height: 1.7;
-        margin-bottom: 20px;
-      }
+@media screen and (max-width: 767px) {
+    /* ヘッダー */
+    .header .container {
+      padding: 15px;
+    } 
+    .nav-list {
+      margin: 0 auto;
+      justify-content: space-between;
     }
+    .nav-item a {
+      font-size: 10px;
+    }
+
+    /* CONTENT */
+    .article {
+      padding: 50px 0;
+    }
+  
+    .article-body h3 {
+      font-size: 16px;
+      padding-left: .8em;
+    }
+  
+    .article-body h3:not(:first-child) {
+      margin-top: 30px;
+    }
+  
+    .work-content, .work-pp {
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .work-content, .work-pp {
+      font-size: 12px;
+    }
+    .work-memo {
+      font-size: 13px;
+    }
+  }
