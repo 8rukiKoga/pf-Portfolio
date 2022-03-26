@@ -97,7 +97,6 @@ body {
     }
     
     .nav-item a {
-      position: relative;
       font-size: 13px;
       font-weight: bold;
       display: inline-block;
@@ -106,20 +105,9 @@ body {
       letter-spacing: .05em;
       color: #333;
     }
-    .nav-item a:after {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      width: 0;
-      height: 3px;
-      content: "";
-      transition: .3s;
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%);
-      background-color: #333;
-    }
-    .nav-item a:hover:after {
-      width: 100%;
+
+    .nav-item a:hover {
+      color: rgb(212, 0, 255);
     }
     
     /* トップ */
@@ -157,8 +145,10 @@ body {
     /* ABOUT */
     .profile {
       max-width: 800px;
-      margin: 0 auto;
+      margin: 30px auto;
       text-align: center;
+      height:  500px;
+      width: 80%;
     }
     .profile-img {
       width: 120px;
@@ -170,11 +160,6 @@ body {
     
     table {
       margin: 0 auto 30px auto;
-    }
-  
-    .profile {
-      width: 80%;
-      margin-bottom: 80px;
     }
   
     /* SKILL */
@@ -190,7 +175,7 @@ body {
       align-items: flex-start;
       justify-content: space-between;
       width: 48%;
-      margin: 100px auto;
+      margin: 50px auto;
       background-color: #333;
       border-radius: 8px;
     }
@@ -232,7 +217,7 @@ body {
     
     .works-item {
       padding-top: 20px;
-      width: 31.74603%;
+      width: 29%;
       border-radius: 8px;
       margin-bottom: 40px;
         box-shadow: 0 0 3px 0 #5a5baa, 0 1px 3px 0 #6e035d;
@@ -246,6 +231,9 @@ body {
     
     .works-img img {
       border: 1px solid #e6e6e6;
+      width: 200px;
+      height: 120px;
+      margin-bottom: 20px;
     }
     
     .works-name {
@@ -265,6 +253,7 @@ body {
     /* CONTACT */
     .contact {
       text-align: center;
+      height: 300px;
     }
     
     .contact-item:not(:last-child) {
