@@ -107,7 +107,7 @@ body {
     }
 
     .nav-item a:hover {
-      color: rgb(212, 0, 255);
+      color: rgba(212, 0, 255, 0.884);
     }
     
     /* トップ */
