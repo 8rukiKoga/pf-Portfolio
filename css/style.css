@@ -231,6 +231,8 @@ body {
     
     .works-img img {
       border: 1px solid #e6e6e6;
+      width: 200px;
+      height: auto;
       margin-bottom: 20px;
     }
     
