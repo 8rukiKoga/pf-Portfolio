@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haruki's Portfolio</title>
+  <link href="css/works.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="./#top">TOP</a></li>
+            <li class="nav-item"><a href="./#about">ABOUT</a></li>
+            <li class="nav-item"><a href="./#skill">SKILLS</a></li>
+            <li class="nav-item"><a href="./#works">WORKS</a></li>
+            <li class="nav-item"><a href="./#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <article class="article">
+        <div class="article-container">
+          <div class="article-body">
+            <p class="work-img">
+              <img src="img/works/ShukatsuNote.png" alt="">
+            </p>
+            <h2 class="article-title">就活ノート</h2>
+            <p class="work-subtitle">就活の進捗を記録できるメモアプリ</p>
+            <h3>URL</h3>
+            <p><a href="#" target="_blank" rel="noopener">---</a></p>
+            <h3>作品紹介</h3>
+            <p class="work-content">「就活ノート」は、就活をもっと楽に管理できるメモアプリです。<br>
+              <br>
+              「あの企業はこういうサービスを展開していて、その企業は福利厚生が優秀、いついつはこの企業で説明会がある。。。」などといった、企業の情報をまとめることはとても難しいですよね。<br>
+              そこで、「就活に特化したアプリを作りたい！」という熱い思いから就活ノートは生まれました。
+              <br>
+              <br>
+              【機能一覧】<br>
+              主な機能は以下の３つです。<br>
+              ・企業フォルダ<br>
+              ・ノート<br>
+              ・ToDoリスト<br>
+              ノート・Todoは、企業との紐付けが可能であるため、企業ごとに見ることができます！<br>
+              <br>
+              就活ノートは、iPhone標準のメモアプリに見た目が似ているので、操作もラクラク。<br>
+              シンプルなデザインで、広告なし！<br>
+              <br>
+              <br>
+              さいごに。<br>
+              「就活ノート」は、個人によって開発されたものなので、機能足らずな部分があるかもしれません。<br>
+              そのため、ぜひユーザーの皆様からのレビューを受け、より良いものにしていきたいです。<br>
+              もし、ご不満やリクエストなどがある場合は、アプリ内の「設定→お問い合わせ」よりお申し付けください！
+            </p>
+              <h3>プライバシーポリシー</h3>
+              <p class="work-pp">
+                本アプリでは、個人を特定できる情報は収集しておりません。
+                Appleにより私(開発者)に提示されるアナリティクスのみを参照し、情報を収集しております。
+                例えば、アプリのインストール数や、アプリ内で起こったクラッシュ数などです。
+                 ※ご不明な点があれば、お気軽にお問い合わせください。</p>
+              <h3>お問い合わせ先</h3>
+              <p class="work-memo">Mail: harukikoga.dev@gmail.com<br>
+                Facebook: <a href="https://www.facebook.com/8rukiKoga">@8rukiKoga</a>
+              </p>
+              <h3>Interface</h3>
+              <p class="work-memo">SwiftUI</p>
+              <h3>開発者メモ</h3>
+            <p class="work-memo">自分のやりたいことをすべて実現できた。そんなアプリです。<br>
+              自分自身が就活の管理に悩んでいて、AppStoreを一通り探してみたのですが、どれも一歩足らずなものばかりであったため、自分で開発しようと決意しました。
+              就活ノートを開発する上で重点的に意識したことは、開発した機能をバラバラに配置するのではなく、たとえばCompanyViewからその企業のノート・Todoが見れるような、全てが繋がるような設計です。
+              <br>
+              また、開発期間中に、株式会社フェンリルのエンジニアの方から、個人開発アプリのコードレビューを受ける機会があり、そこでこのアプリを提出しました。
+              そこでは、ファイル分けする目安、アクセス修飾子をつける必要性など、個人開発ではあまり意識することのない学びが多くありました。
+              また、提出するまでは、アプリのデータをUserDefaultsに保存するようにしていたのですが、コードレビューの際にCoreDataという技術を教えていただき、なかなか理解に苦しみましたが、結果的に実装でき、UserDefaultsよりも、多くのデータを保存できるようになりました。
+            </p>
+          </div>
+          <div class="home-link">
+            <a href="./#works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="page-top-text">TOPに戻る</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;2021 Haruki Koga</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
